@@ -1,0 +1,44 @@
+name: flutter_photo_gallery_webant
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+  dio: ^5.3.3
+  provider: ^6.1.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  connectivity_plus: ^5.0.1
+  flutter_svg: ^2.0.9
+  intl: ^0.18.1
+  get_it: ^7.6.4
+  flutter_native_splash: ^2.3.5
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: '#FFFFFF'
+  image: assets/splash.png
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
